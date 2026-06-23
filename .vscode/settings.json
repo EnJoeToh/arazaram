@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "^.*/diaries/[0-9]{4}/.*\\.md$",
+        "cmd": "folio diary build"
+      }
+    ]
+  }
+}
