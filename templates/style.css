@@ -171,6 +171,11 @@ time,
   margin: 0;
 }
 
+.entry .math-display {
+  margin: 0 0 1.2em;
+  overflow-x: auto;
+}
+
 .entry a {
   text-decoration: none;
 }
