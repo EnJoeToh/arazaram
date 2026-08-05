@@ -143,6 +143,15 @@ time,
   padding: 18px 18px 6px;
 }
 
+.entry-future {
+  background: color-mix(in srgb, var(--surface) 88%, var(--link));
+}
+
+.entry-future .entry-date {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .entry-date {
   display: inline-block;
   font-family: "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans CJK JP", "Noto Sans JP", "Yu Gothic", "YuGothic", system-ui, sans-serif;

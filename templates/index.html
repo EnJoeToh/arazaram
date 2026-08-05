@@ -3,7 +3,7 @@
 {% block content %}
   <div class="entry-stream">
     {% for entry in entries %}
-      <article class="entry entry-summary">
+      <article class="entry entry-summary{% if entry.date > today %} entry-future{% endif %}">
         <p class="entry-date">
           <a name="{{ entry.date_text }}"></a>
           <a class="entry-date-link" href="{{ entry.url }}">
